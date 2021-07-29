@@ -1,9 +1,10 @@
 # Contract Manager
 
 ## 기획의도 
-- 2020년 네파 인사총무팀 재직 시, 2021년 사업계획으로 계약 관리 시스템 개발 선정
-- 2020년 12월 말 개인 사유로 개발 미진행
-- 실무에서 불편을 느꼈던 부분을 직접 개선해보고자 프로젝트를 진행함
+- 전 직장(네파) 재직 당시, 업무에서 불편을 느꼈던 점을 개선해보고자 교육과정 수료 후 진행한 프로젝트입니다. 
+- 계약관리 시스템은 계약에 관련된 협업자 간의 계약정보를 공유하기 위한 서비스입니다. 
+- 관리자에서 공유자로 단방향적인 정보를 제공하는것에서 벗어나보자는 아이디어에서 시작되었습니다. 
+- 상호 간 언제든지 원하는 시점에 계약 정보를 조회하고 업무에 반영할 수 있으며, 관리자는 계약정보 변경에 대한 알림메일을 발송할 수 있습니다.
 
 ## 주요기능
 - 계약현황 조회
@@ -24,9 +25,9 @@
   - 관리자/사용자(공람자) 권한에 맞는 기능 제한 부여
 
 ## 개발스택
-- Backend : Java / Spring Boot / Spring Security / Gradle / Tomcat / MariaDB
-- Frontend : Html5 / CSS / JS / Vue.js / Npm / Bootstrap
-- Others : Git / Git hub / Docker / Intellij / Notion / Slack
+- Java / Spring Boot / Srping Security / Gradle
+- Html / CSS / Javascript / Vue.js / Bootstrap
+- MariaDB / Git
 
 ## Web Service
 - 서비스 URL : http://aoo.myds.me:8080/ 
