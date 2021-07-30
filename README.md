@@ -1,40 +1,53 @@
-# 계약관리 시스템
+### 🔗Link
 
-## 기획의도 
-- 전 직장(네파) 재직 당시, 업무에서 불편을 느꼈던 점을 개선해보고자 교육과정 수료 후 진행한 프로젝트입니다. 
-- 계약관리 시스템은 계약에 관련된 협업자 간의 계약정보를 공유하기 위한 서비스입니다. 
-- 관리자에서 공유자로 단방향적인 정보를 제공하는것에서 벗어나보자는 아이디어에서 시작되었습니다. 
-- 상호 간 언제든지 원하는 시점에 계약 정보를 조회하고 업무에 반영할 수 있으며, 관리자는 계약정보 변경에 대한 알림메일을 발송할 수 있습니다.
+**Source**
 
-## 주요기능
-- 계약현황 조회
-  - 계약정보 조회/검색 기능
-  - Restful 배포로 디바이스 제약조건 완화
+[](http://aoo.myds.me:8080)
 
+**TEST계정(ID/PW)**
 
-- 알림메일 발송 기능
-  - 알림 신청 인원에 대해 일괄 메일 발송 기능 구현  
+관리자 : admin / admin
 
+사용자 : user / user
 
-- 댓글/대댓글 기능 구현
-  - 담당자 간 계약 요청사항 공유 
-  - 의견 조율 내용 이력관리 가능  
+추가 계정 생성 가능
 
+### 📖 살펴보기
 
-- 권한별 기능 제한
-  - 관리자/사용자(공람자) 권한에 맞는 기능 제한 부여
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8889f8da-da70-4436-8ae8-f820215a8b66/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8889f8da-da70-4436-8ae8-f820215a8b66/Untitled.png)
 
-## 개발스택
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a49b9af9-6519-4a26-8a07-7da11e643dcf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a49b9af9-6519-4a26-8a07-7da11e643dcf/Untitled.png)
+
+전 직장(네파) 재직 당시, 업무에서 불편을 느꼈던 점을 개선해보고자 진행한 프로젝트입니다. 계약관리 시스템은 계약에 관련된 협업자 간의 계약정보를 공유하기 위한 서비스입니다. 관리자에서 공유자로 단방향적인 정보를 제공하는것에서 벗어나보자는 아이디어에서 시작되었습니다. 상호 간 언제든지 원하는 시점에 계약 정보를 조회하고 업무에 반영할 수 있으며, 관리자는 계약정보 변경에 대한 알림메일을 발송할 수 있습니다.
+
+### 📄개발 주요사항
+
+- Java, Spring Boot 를 이용한 Restful API구조의 백앤드 개발
+- Vue.js를 적용한 프론트앤드 구성
+- Docker를 이용한 서비스 배포
+
+### 🛠사용 기술 및 라이브러리
+
 - Java / Spring Boot / Srping Security / Gradle
 - Html / CSS / Javascript / Vue.js / Bootstrap
 - MariaDB / Git
 
-## Web Service
-- 서비스 URL : http://aoo.myds.me:8080/ 
-- Test계정(ID/PW)
-  - 관리자 : admin / admin
-  - 사용자 : user / user
-  - 추가 계정 생성 가능
+### 💡개발 기능
 
-## 기타사항
-- DB / Mail 계정으로 기존 Repository 복사한 버전입니다. 참고 바랍니다.
+- DB구조 설계
+- Restful API 구조 설계
+- Spring Security 적용
+- Vue.js Framework 적용
+- 회원가입, 로그인 기능
+- 게시판 글 작성 및 수정 기능
+- 댓글 (대댓글) 기능
+- 메일 일괄 발송기능
+- 권한별 접근 제한
+
+### ✏느낀점
+
+- Model 관계 맵핑으로 불필요한 코드를 줄일 수 있었습니다.
+- Vue.js 배포시 발생하는 `404(not found)`에러에 관한 원인과 해결방법을 알 수 있었습니다.
+- Rest API 설계 시 발생하는 `CORS(Cross-Origin Resource Sharing)`이슈에 대해 알 수 있었습니다.
+- Vuex 플러그인으로 새로고침 한 후에도 데이터를 유지할 수 있었습니다.
+- Java Mailsender 라이브러리를 이용해 메일 발송 기능을 구현했습니다.
