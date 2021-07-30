@@ -35,3 +35,6 @@
   - 관리자 : admin / admin
   - 사용자 : user / user
   - 추가 계정 생성 가능
+
+## 기타사항
+- DB / Mail 계정으로 기존 Repository 복사한 버전입니다. 참고 바랍니다.
