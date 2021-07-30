@@ -13,11 +13,6 @@
 추가 계정 생성 가능
 
 ### 📖 살펴보기
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8889f8da-da70-4436-8ae8-f820215a8b66/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8889f8da-da70-4436-8ae8-f820215a8b66/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a49b9af9-6519-4a26-8a07-7da11e643dcf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a49b9af9-6519-4a26-8a07-7da11e643dcf/Untitled.png)
-
 전 직장(네파) 재직 당시, 업무에서 불편을 느꼈던 점을 개선해보고자 진행한 프로젝트입니다. 계약관리 시스템은 계약에 관련된 협업자 간의 계약정보를 공유하기 위한 서비스입니다. 관리자에서 공유자로 단방향적인 정보를 제공하는것에서 벗어나보자는 아이디어에서 시작되었습니다. 상호 간 언제든지 원하는 시점에 계약 정보를 조회하고 업무에 반영할 수 있으며, 관리자는 계약정보 변경에 대한 알림메일을 발송할 수 있습니다.
 
 ### 📄개발 주요사항
